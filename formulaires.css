@@ -1,0 +1,114 @@
+
+body {
+    background: linear-gradient(135deg, #FFE5EC 0%, #FFC2D4 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+p {
+    color: #D8578E;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+form {
+    background: white;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    padding: 30px;
+    border-radius: 0px;
+}
+
+
+fieldset {
+    border: 2px solid #FFD1DC;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background: #FFF9FB;
+}
+
+/* Legend */
+legend {
+    color: #D8578E;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 15px;
+    background: white;
+    border-radius: 0px;
+}
+label {
+    color: #A567A0;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #FFD1DC;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    outline: none;
+    border-color: #D8578E;;
+}
+
+
+select {
+    cursor: pointer;
+    background: white;
+}
+
+select option {
+    padding: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #D8578E;
+    cursor: pointer;
+}
+
+input[type="radio"] + label {
+    cursor: pointer;
+    margin-top: 0;
+}
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #FFD1DC;
+    border-radius: 0px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: vertical;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #D8578E;
+}
+ input[type="submit"],
+ input[type="reset"]

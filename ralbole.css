@@ -1,0 +1,64 @@
+/* Style général de la page */
+body {
+    background: #ffe7f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    margin: 0;
+    line-height: 1.8;S
+    color: #5a5a5a;
+}
+
+/* Titres principaux */
+h1 {
+    color: #cc80b3;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(179, 102, 204, 0.2);
+    padding: 20px;
+    background: rgba(255, 230, 245, 0.6);
+    border-radius: 15px;
+    border: 5px solid #ff99cc;
+}
+
+h2 {
+    text-indent: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cc80b3;
+    font-size: 1.8em;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255, 230, 245, 0.6);
+    border-radius: 10px;
+    border: 4px solid #ff99cc;
+}
+
+h3 {
+    color: #cc80b3;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 12px;
+    background: rgba(255, 230, 245, 0.6);
+    border-radius: 8px;
+    border: 4px solid #ffb3d9;
+}
+.decimal {
+    list-style-type: decimal;
+}
+
+.commence_a_zero {
+    list-style-type: decimal-leading-zero;
+}
+
+.lettres_minuscules {
+    list-style-type: lower-alpha;
+}
+
+.chiffres_romains {
+    list-style-type: upper-roman;
+}
+
+.lettres_grecques {
+    list-style-type: lower-greek;
+}

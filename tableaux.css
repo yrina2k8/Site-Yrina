@@ -1,0 +1,63 @@
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 8px 25px rgba(216, 87, 142, 0.2);
+    border-radius: 0 !important;
+}
+
+h2 {
+    text-align: center;
+    color: #D8578E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+    color: #A567A0;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
+th {
+    background-color: #ffdaee;
+    color: rgb(138, 0, 71);
+    padding: 15px;
+    font-weight: bold;
+    border: 1px rgb(93, 10, 54) solid;
+    font-size: 1.1em;
+    border-radius: 0 !important;
+}
+
+td {
+    padding: 12px;
+    border: 1px rgb(93, 10, 54) solid;
+    color: rgb(138, 0, 71);
+    background-color: #ffdaee;
+    text-align: center;
+    border-radius: 0 !important;
+}
+table, th, td {
+    border-radius: 0 !important;
+}
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+.oblique-montant {
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+.oblique-descendant {
+    display: inline-block;
+    transform: rotate(45deg);
+}

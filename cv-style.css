@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #ffe6f0;
+    padding: 20px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0;
+    border-radius: 10px;
+}    
+.header {
+    background-color: #ffd1dc;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 5px solid #ffb6c1;
+}
+.header h1 {
+    font-size: 2.5em;
+    color: #d63384;
+    margin-bottom: 10px;
+}
+.profession {
+    font-size: 1.3em;
+    color: #666;
+    margin-bottom: 15px;
+}
+.contact {
+    color: #555;
+    font-size: 0.95em;
+}
+.bloc {
+    padding: 30px 40px;
+    border-bottom: 1px solid #e9ecef;
+}
+h2 {
+    font-size: 1.8em;
+    color: #d63384;
+    margin-bottom: 10px;
+}
+.trait {
+    border: none;
+    height: 4px;
+    background-color: #ffd1dc;
+    margin-bottom: 20px;
+}
+p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+.experience {
+    margin-bottom: 25px;
+    padding: 20px;
+}
+.experience h3 {
+    color: #c287e2;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+.experience ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.experience li {
+    margin-bottom: 8px;
+    color: #555;
+}
+.projet {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.projet h3 {
+    color: #d5a1f0;
+    margin-bottom: 10px;
+}
+.competences {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.colonne {
+    width: 22%;
+    background-color: #fff9fc;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.colonne h4 {
+    color: #d63384;
+    margin-bottom: 15px;
+}
+.colonne ul {
+    list-style: none;
+    padding: 0;
+}
+.colonne li {
+    padding: 6px 0;
+    color: #555;
+}
+.deux-colonnes {
+    display: flex;
+    border-bottom: 1px solid #e9ecef;
+}
+.bloc-gauche {
+    width: 50%;
+    padding: 30px 40px;
+    border-right: 1px solid #e9ecef;
+}
+.bloc-droit {
+    width: 50%;
+    padding: 30px 40px;
+}
+.bloc-gauche ul,
+.bloc-droit ul {
+    list-style: none;
+    padding: 0;
+}
+.bloc-gauche li,
+.bloc-droit li {
+    padding: 8px 0;
+    color: #555;
+}
+.pied_de_page {
+    background-color: #ffd1dc;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+.experience:hover {
+    background-color: #fff0f5;
+}
+.projet:hover {
+    background-color: #e6f7ff;
+}

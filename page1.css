@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(135deg, #ffd6e8 0%, #f7c5ff 50%, #ffbee7 100%);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    color: #341532;
+    padding: 30px 40px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: center;
+}
